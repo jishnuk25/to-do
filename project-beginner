@@ -6,5 +6,5 @@
 5. Set up slave for the jenkins instance(master) by spinning up anohter instance.
 6. Write a scripted pipeline in jenkins to build and deploy the app. Agent should be the slave machine configured.
 7. Configure the pipeline to enable webhooks from github, where the webhooks gets executed when there is a pull request from feature branch to master branch.
-8. Spin up a 3rd machine and have sonarqube installed and configured in it.
-9. Integrate sonarqube with jenkins and modify the existing pipeline to have static code test steps added.
+8. Create an account in sonarcloud.io
+9. Integrate sonarqube cloud with jenkins and modify the existing pipeline to have static code test steps added.
